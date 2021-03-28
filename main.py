@@ -82,8 +82,9 @@ if __name__ == '__main__':
 
     files = []
     if os.path.isfile(exclude_list_file):
-        with open(exclude_list_file, 'r') as f:
-            files = f.read().strip().split('\n')
+        with open(exclude_list_file, 'r') as f: files = f.read().strip().split('\n')
+    else:
+        with open(exclude_list_file, 'w'): pass
 
     # Read arguments from the command line
     args = parser.parse_args()
