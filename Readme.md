@@ -7,13 +7,13 @@ This project is built using filesplit: https://github.com/ram-jayapalan/filespli
 
 usage: main.py [-h] [--split] [--merge] [--list] [--size SIZE]
 
-optional arguments:
-  -h, --help   show this help message and exit
+optional arguments:<br>
+  -h, --help   show this help message and exit<br>
   --split      split all files within this directory greater than specified
-               size
+               size<br>
   --merge      merge all files within this directory previously split by this
-               program
-  --list       list all files that will be split given the specified size
-  --size SIZE  file size limit in bytes for splitting. Defaults to 100000000
+               program<br>
+  --list       list all files that will be split given the specified size<br>
+  --size SIZE  file size limit in bytes for splitting. Defaults to 100000000<br>
 
 To exclude files add the paths one per line in "excluded_files".
