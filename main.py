@@ -96,3 +96,7 @@ if __name__ == '__main__':
 
     elif args.list:
         [print(file) for file in get_files_to_split(files, args.size)]
+
+# Todo: 
+#1. enable adding folders to excluded files
+#2. add a check to so excluded_files itself is not split
