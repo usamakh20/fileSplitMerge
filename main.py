@@ -100,3 +100,4 @@ if __name__ == '__main__':
 # Todo: 
 #1. enable adding folders to excluded files
 #2. add a check to so excluded_files itself is not split
+#3. Add feature to split or merge a single file
